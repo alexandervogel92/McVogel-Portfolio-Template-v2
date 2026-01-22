@@ -1,0 +1,405 @@
+{
+  "nav": [
+    {
+      "label": "Overview",
+      "target": "#intro"
+    },
+    {
+      "label": "Expertise",
+      "target": "#expertise"
+    },
+    {
+      "label": "Projects",
+      "target": "#projects"
+    },
+    {
+      "label": "Resume",
+      "target": "#resume"
+    },
+    {
+      "label": "Contact",
+      "target": "#contact"
+    }
+  ],
+  "hero": {
+    "badge": "Software Developer",
+    "location": "Remote-friendly and open to collaboration",
+    "title": "Thoughtful web products, built to last.",
+    "subtitle": "I help teams ship clear, fast, and maintainable software.",
+    "ctaPrimary": "View projects",
+    "ctaPrimaryLink": "#projects",
+    "ctaSecondary": "Write me",
+    "ctaSecondaryLink": "#contact",
+    "availability": "Open for new ideas",
+    "status": "Focused on frontend, backend, and reliable delivery."
+  },
+  "highlightsHeading": "What sets my work apart",
+  "highlights": [
+    {
+      "id": "frontend",
+      "label": "Frontend",
+      "headline": "Frontend",
+      "description": "Clean UI, accessible patterns, and performance-first layouts.",
+      "focusLabel": "Key points",
+      "points": [
+        "Design systems that scale",
+        "Responsive by default",
+        "Performance-minded UI"
+      ],
+      "icon": "mdi-monitor-cellphone-star",
+      "accent": {
+        "from": "#1F2937",
+        "to": "#0EA5E9"
+      }
+    },
+    {
+      "id": "backend",
+      "label": "Backend",
+      "headline": "Backend",
+      "description": "Simple APIs and stable data flows.",
+      "focusLabel": "Key points",
+      "points": [
+        "Clear contracts",
+        "Safe validation",
+        "Maintainable services"
+      ],
+      "icon": "mdi-cloud-braces",
+      "accent": {
+        "from": "#111827",
+        "to": "#22C55E"
+      }
+    },
+    {
+      "id": "delivery",
+      "label": "Git",
+      "headline": "Git",
+      "description": "Predictable delivery with tidy workflows.",
+      "focusLabel": "Key points",
+      "points": [
+        "Small, reviewed changes",
+        "Readable history",
+        "Release-friendly branches"
+      ],
+      "icon": "mdi-source-branch",
+      "accent": {
+        "from": "#2B0B3F",
+        "to": "#F472B6"
+      }
+    },
+    {
+      "id": "ai",
+      "label": "AI",
+      "headline": "AI",
+      "description": "Practical automation where it saves time.",
+      "focusLabel": "Key points",
+      "points": [
+        "Assisted research",
+        "Code scaffolds",
+        "Quality checks"
+      ],
+      "icon": "mdi-robot-happy-outline",
+      "accent": {
+        "from": "#312E81",
+        "to": "#1D4ED8"
+      }
+    }
+  ],
+  "expertise": {
+    "heading": "Expertise",
+    "description": "A quick look at skills, tech stack, and how I work.",
+    "tabs": {
+      "skills": {
+        "label": "Skills",
+        "copy": "Core strengths across product, engineering, and delivery.",
+        "groups": [
+          {
+            "title": "Strengths",
+            "entries": [
+              "Product thinking",
+              "UI engineering",
+              "API design",
+              "TypeScript",
+              "Testing",
+              "Performance",
+              "Accessibility",
+              "Documentation",
+              "Mentoring"
+            ]
+          },
+          {
+            "title": "Domains",
+            "entries": [
+              "Web apps",
+              "Dashboards",
+              "Automation",
+              "Integrations",
+              "Internal tools",
+              "B2B platforms",
+              "E-commerce",
+              "Analytics",
+              "Content systems",
+              "Payments",
+              "Authentication",
+              "Search",
+              "Monitoring",
+              "Refactoring"
+            ]
+          }
+        ]
+      },
+      "tools": {
+        "label": "Tech Stack",
+        "copy": "Modern stack with a focus on stability.",
+        "groups": [
+          {
+            "title": "Frontend",
+            "entries": [
+              "Vue",
+              "Vite",
+              "TypeScript",
+              "SCSS",
+              "Vitest"
+            ]
+          },
+          {
+            "title": "Backend",
+            "entries": [
+              "Node.js",
+              "REST APIs",
+              "SQL",
+              "Authentication",
+              "Queues",
+              "Caching"
+            ]
+          },
+          {
+            "title": "Infrastructure",
+            "entries": [
+              "Docker",
+              "CI/CD",
+              "Nginx"
+            ]
+          },
+          {
+            "title": "Collaboration",
+            "entries": [
+              "Code hosting",
+              "Design tools",
+              "Documentation",
+              "Ticketing"
+            ]
+          }
+        ]
+      },
+      "process": {
+        "label": "Process",
+        "copy": "Structured, but lightweight.",
+        "groups": [
+          {
+            "title": "Flow",
+            "entries": [
+              "Discovery",
+              "Scope",
+              "Iterate",
+              "Review",
+              "Ship",
+              "Learn"
+            ]
+          },
+          {
+            "title": "Quality",
+            "entries": [
+              "Code review",
+              "Linting",
+              "Testing",
+              "Monitoring",
+              "Documentation"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "projects": {
+    "heading": "Projects",
+    "description": "Selected examples and experiments.",
+    "filterLabel": "Project highlights",
+    "categories": [
+      {
+        "id": "all",
+        "label": "All"
+      },
+      {
+        "id": "personal",
+        "label": "Own Projects"
+      },
+      {
+        "id": "learning",
+        "label": "Learning Projects"
+      }
+    ],
+    "empty": "No projects in this filter yet.",
+    "linkLabelFallback": "View details",
+    "items": [
+      {
+        "name": "Portfolio Platform",
+        "year": "2024",
+        "description": "Modular portfolio built with Vue and Vite.",
+        "impact": "Fast load times and clear content structure.",
+        "stack": [
+          "Vue",
+          "Vite",
+          "TypeScript",
+          "Vuetify",
+          "SCSS",
+          "Static Hosting"
+        ],
+        "categories": [
+          "personal"
+        ],
+        "link": "#",
+        "linkLabel": "Case study"
+      },
+      {
+        "name": "Client CRM Prototype",
+        "year": "2023",
+        "description": "Internal tool for contacts and pipeline notes.",
+        "impact": "Simplified follow-ups and reporting.",
+        "stack": [
+          "Vue",
+          "Node.js",
+          "PostgreSQL",
+          "Vuetify",
+          "Docker"
+        ],
+        "categories": [
+          "personal"
+        ],
+        "inactive": true,
+        "inactiveLabel": "Archived"
+      },
+      {
+        "name": "API Playground",
+        "year": "2024",
+        "description": "Explored API patterns and auth flows.",
+        "impact": "Better understanding of versioning.",
+        "stack": [
+          "Node.js"
+        ],
+        "categories": [
+          "learning"
+        ],
+        "link": "#",
+        "linkLabel": "View repo"
+      },
+      {
+        "name": "UI Animation Lab",
+        "year": "2023",
+        "description": "Small UI experiments around motion and layout.",
+        "impact": "Reusable animation patterns.",
+        "stack": [
+          "CSS"
+        ],
+        "categories": [
+          "learning"
+        ],
+        "link": "#",
+        "linkLabel": "View demo"
+      },
+      {
+        "name": "Data Dashboard",
+        "year": "2022",
+        "description": "Prototype dashboard with filters and charts.",
+        "impact": "Accessible data views.",
+        "stack": [
+          "Vue",
+          "TypeScript",
+          "Charts"
+        ],
+        "categories": [
+          "learning"
+        ],
+        "link": "#",
+        "linkLabel": "View demo"
+      }
+    ]
+  },
+  "settings": {
+    "heading": "Settings",
+    "themeLabel": "Theme",
+    "languageLabel": "Language",
+    "accentLabel": "Accent",
+    "accentHint": "Choose a highlight color"
+  },
+  "resume": {
+    "heading": "Resume",
+    "subtitle": "Recent roles and focus areas.",
+    "timelineLabel": "Experience",
+    "timeline": [
+      {
+        "title": "Software Developer",
+        "company": "Product Studio",
+        "location": "Remote",
+        "period": "2022-Present",
+        "description": "Built and maintained web products for small teams.",
+        "highlights": [
+          "Led frontend architecture",
+          "Worked across design and QA",
+          "Improved performance and DX"
+        ]
+      },
+      {
+        "title": "Frontend Engineer",
+        "company": "Digital Agency",
+        "location": "Hybrid",
+        "period": "2020-2022",
+        "description": "Delivered client websites and apps.",
+        "highlights": [
+          "Reusable components",
+          "API integrations",
+          "Accessibility upgrades"
+        ]
+      },
+      {
+        "title": "Developer Trainee",
+        "company": "Tech Program",
+        "location": "On-site",
+        "period": "2018-2020",
+        "description": "Learned full-stack basics in real projects.",
+        "highlights": [
+          "Pair programming",
+          "Testing basics",
+          "CI workflows"
+        ]
+      }
+    ],
+    "dailyLabel": "Daily focus",
+    "dailyHeadline": "How I work today",
+    "dailyCopy": "Lean process, clear communication, and attention to detail.",
+    "dailyHighlights": [
+      "Small, clear milestones",
+      "Code reviews and testing",
+      "Performance and accessibility",
+      "Continuous learning"
+    ],
+    "dailyStackLabel": "Daily stack",
+    "dailyStack": [
+      "TypeScript",
+      "Vue",
+      "Vite",
+      "Vuetify",
+      "SCSS",
+      "Node.js",
+      "REST",
+      "PostgreSQL",
+      "Docker",
+      "Git",
+      "CI/CD",
+      "Testing"
+    ]
+  },
+  "contact": {
+    "heading": "Get in touch",
+    "copy": "Send a short note and I'll reply."
+  }
+}

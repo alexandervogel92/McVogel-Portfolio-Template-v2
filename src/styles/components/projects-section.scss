@@ -1,0 +1,139 @@
+.projects-section {
+  padding: 6rem 0 4rem;
+  scroll-margin-top: 120px;
+  background: radial-gradient(120% 120% at 10% 0%, rgba(var(--accent-color-rgb), 0.12), transparent);
+}
+
+.section-heading {
+  max-width: min(90ch, 100%);
+  margin-bottom: 2.5rem;
+}
+
+.section-heading h2 {
+  font-size: clamp(1.9rem, 2.4vw + 1rem, 3rem);
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.section-heading p {
+  opacity: 0.74;
+  font-size: 1rem;
+}
+
+.control-label {
+  font-size: 0.85rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  opacity: 0.6;
+}
+
+.accent-icon {
+  color: var(--accent-color);
+}
+
+.project-card {
+  border-radius: 26px;
+  padding: 2.4rem;
+  background: color-mix(in srgb, var(--v-theme-surface) 96%, transparent);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card--inactive {
+  background: color-mix(in srgb, var(--v-theme-surface) 92%, transparent);
+  border: 1px dashed color-mix(in srgb, var(--v-theme-on-surface) 18%, transparent);
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 30px 60px -40px rgba(var(--accent-color-rgb), 0.55);
+}
+
+.year-chip {
+  background-color: rgba(var(--accent-color-rgb), 0.12) !important;
+  color: var(--accent-color) !important;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+}
+
+.project-title {
+  font-size: 1.35rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.project-description {
+  opacity: 0.78;
+  margin: 0;
+}
+
+.project-impact {
+  font-weight: 600;
+  margin: 0;
+}
+
+.project-stack {
+  margin-top: 0.5rem;
+}
+
+.project-link {
+  color: var(--accent-color) !important;
+}
+
+.project-card--inactive .project-title,
+.project-card--inactive .project-description,
+.project-card--inactive .project-impact {
+  text-decoration: line-through;
+  text-decoration-thickness: 2px;
+  text-decoration-color: color-mix(in srgb, var(--accent-color) 65%, var(--v-theme-on-surface) 35%);
+  opacity: 0.65;
+}
+
+.project-card--inactive .project-stack .v-chip {
+  opacity: 0.65;
+  text-decoration: line-through;
+  text-decoration-color: color-mix(in srgb, var(--accent-color) 65%, var(--v-theme-on-surface) 35%);
+  text-decoration-thickness: 2px;
+}
+
+.project-card--inactive .year-chip {
+  opacity: 0.8;
+}
+
+.project-offline-note {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.3rem 0.65rem;
+  border-radius: 999px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--v-theme-error);
+  background: color-mix(in srgb, var(--v-theme-error) 12%, transparent);
+  border: 1px dashed color-mix(in srgb, var(--v-theme-error) 32%, transparent);
+}
+
+.empty-state {
+  text-align: center;
+  border-radius: 24px;
+  background: color-mix(in srgb, var(--v-theme-surface) 95%, transparent);
+}
+
+@media (max-width: 600px) {
+  .projects-section {
+    background: none;
+  }
+}
+
+@media (max-width: 960px) {
+  .projects-section {
+    padding: 4rem 0 3rem;
+  }
+
+  .project-card {
+    border-radius: 20px;
+  }
+}

@@ -1,0 +1,11 @@
+services:
+  portfolio-local:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        VITE_RECAPTCHA_SITE_KEY: "${VITE_RECAPTCHA_SITE_KEY:-local-dev-key}"
+    container_name: portfolio-local-app
+    ports:
+      - "8085:80"
+    restart: unless-stopped

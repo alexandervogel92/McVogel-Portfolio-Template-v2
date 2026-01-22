@@ -1,0 +1,11 @@
+:root {
+  --color-accent-base: #715aff;
+  --color-accent-rgb: 113, 90, 255;
+  --color-background-light: #f5f7fb;
+  --color-background-dark: #0b1220;
+  --color-surface-light: #ffffff;
+  --color-surface-dark: #111a2d;
+
+  --accent-color: var(--color-accent-base);
+  --accent-color-rgb: var(--color-accent-rgb);
+}

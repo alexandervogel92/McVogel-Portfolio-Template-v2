@@ -1,0 +1,405 @@
+{
+  "nav": [
+    {
+      "label": "Überblick",
+      "target": "#intro"
+    },
+    {
+      "label": "Expertise",
+      "target": "#expertise"
+    },
+    {
+      "label": "Projekte",
+      "target": "#projects"
+    },
+    {
+      "label": "Lebenslauf",
+      "target": "#resume"
+    },
+    {
+      "label": "Kontakt",
+      "target": "#contact"
+    }
+  ],
+  "hero": {
+    "badge": "Softwareentwickler",
+    "location": "Remote-freundlich und offen für Zusammenarbeit",
+    "title": "Saubere Webprodukte, die lange halten.",
+    "subtitle": "Ich helfe Teams, klare, schnelle und wartbare Software zu liefern.",
+    "ctaPrimary": "Projekte ansehen",
+    "ctaPrimaryLink": "#projects",
+    "ctaSecondary": "Schreib mir",
+    "ctaSecondaryLink": "#contact",
+    "availability": "Offen für neue Ideen",
+    "status": "Fokus auf Frontend, Backend und zuverlässige Auslieferung."
+  },
+  "highlightsHeading": "Was meine Arbeit auszeichnet",
+  "highlights": [
+    {
+      "id": "frontend",
+      "label": "Frontend",
+      "headline": "Frontend",
+      "description": "Klare UIs, zugänglich und schnell.",
+      "focusLabel": "Schwerpunkte",
+      "points": [
+        "Skalierbare Design-Systeme",
+        "Responsive von Anfang an",
+        "Performance im Blick"
+      ],
+      "icon": "mdi-monitor-cellphone-star",
+      "accent": {
+        "from": "#1F2937",
+        "to": "#0EA5E9"
+      }
+    },
+    {
+      "id": "backend",
+      "label": "Backend",
+      "headline": "Backend",
+      "description": "Einfache APIs und stabile Datenflüsse.",
+      "focusLabel": "Schwerpunkte",
+      "points": [
+        "Klare Schnittstellen",
+        "Sichere Validierung",
+        "Wartbare Services"
+      ],
+      "icon": "mdi-cloud-braces",
+      "accent": {
+        "from": "#111827",
+        "to": "#22C55E"
+      }
+    },
+    {
+      "id": "delivery",
+      "label": "Git",
+      "headline": "Git",
+      "description": "Verlässliche Lieferung durch saubere Workflows.",
+      "focusLabel": "Schwerpunkte",
+      "points": [
+        "Kleine, überprüfbare Änderungen",
+        "Lesbare Historie",
+        "Release-freundliche Branches"
+      ],
+      "icon": "mdi-source-branch",
+      "accent": {
+        "from": "#2B0B3F",
+        "to": "#F472B6"
+      }
+    },
+    {
+      "id": "ai",
+      "label": "AI",
+      "headline": "AI",
+      "description": "Pragmatische Automatisierung, wo sie hilft.",
+      "focusLabel": "Schwerpunkte",
+      "points": [
+        "Recherche-Unterstützung",
+        "Code-Gerüste",
+        "Qualitätschecks"
+      ],
+      "icon": "mdi-robot-happy-outline",
+      "accent": {
+        "from": "#312E81",
+        "to": "#1D4ED8"
+      }
+    }
+  ],
+  "expertise": {
+    "heading": "Expertise",
+    "description": "Ein kurzer Überblick über Skills, Tech-Stack und Arbeitsweise.",
+    "tabs": {
+      "skills": {
+        "label": "Skills",
+        "copy": "Stärken rund um Produkt, Engineering und Auslieferung.",
+        "groups": [
+          {
+            "title": "Stärken",
+            "entries": [
+              "Produktdenken",
+              "UI-Engineering",
+              "API-Design",
+              "TypeScript",
+              "Testing",
+              "Performance",
+              "Barrierefreiheit",
+              "Dokumentation",
+              "Mentoring"
+            ]
+          },
+          {
+            "title": "Domänen",
+            "entries": [
+              "Web-Apps",
+              "Dashboards",
+              "Automatisierung",
+              "Integrationen",
+              "Interne Tools",
+              "B2B-Plattformen",
+              "E-Commerce",
+              "Analytics",
+              "Content-Systeme",
+              "Zahlungen",
+              "Authentifizierung",
+              "Suche",
+              "Monitoring",
+              "Refactoring"
+            ]
+          }
+        ]
+      },
+      "tools": {
+        "label": "Tech-Stack",
+        "copy": "Moderner Stack mit Fokus auf Stabilität.",
+        "groups": [
+          {
+            "title": "Frontend",
+            "entries": [
+              "Vue",
+              "Vite",
+              "TypeScript",
+              "SCSS",
+              "Vitest"
+            ]
+          },
+          {
+            "title": "Backend",
+            "entries": [
+              "Node.js",
+              "REST-APIs",
+              "SQL",
+              "Authentifizierung",
+              "Queues",
+              "Caching"
+            ]
+          },
+          {
+            "title": "Infrastruktur",
+            "entries": [
+              "Docker",
+              "CI/CD",
+              "Nginx"
+            ]
+          },
+          {
+            "title": "Zusammenarbeit",
+            "entries": [
+              "Code-Hosting",
+              "Design-Tools",
+              "Dokumentation",
+              "Ticketing"
+            ]
+          }
+        ]
+      },
+      "process": {
+        "label": "Prozess",
+        "copy": "Strukturiert, aber leichtgewichtig.",
+        "groups": [
+          {
+            "title": "Ablauf",
+            "entries": [
+              "Verstehen",
+              "Umfang",
+              "Iterieren",
+              "Review",
+              "Release",
+              "Lernen"
+            ]
+          },
+          {
+            "title": "Qualität",
+            "entries": [
+              "Code-Review",
+              "Linting",
+              "Testing",
+              "Monitoring",
+              "Dokumentation"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "projects": {
+    "heading": "Projekte",
+    "description": "Ausgewählte Beispiele und Experimente.",
+    "filterLabel": "Projekt-Highlights",
+    "categories": [
+      {
+        "id": "all",
+        "label": "Alle"
+      },
+      {
+        "id": "personal",
+        "label": "Eigene Projekte"
+      },
+      {
+        "id": "learning",
+        "label": "Lernprojekte"
+      }
+    ],
+    "empty": "Keine Projekte in diesem Filter.",
+    "linkLabelFallback": "Details ansehen",
+    "items": [
+      {
+        "name": "Portfolio Plattform",
+        "year": "2024",
+        "description": "Modulares Portfolio mit Vue und Vite.",
+        "impact": "Schnelle Ladezeiten und klare Struktur.",
+        "stack": [
+          "Vue",
+          "Vite",
+          "TypeScript",
+          "Vuetify",
+          "SCSS",
+          "Statisches Hosting"
+        ],
+        "categories": [
+          "personal"
+        ],
+        "link": "#",
+        "linkLabel": "Fallstudie"
+      },
+      {
+        "name": "CRM-Prototyp",
+        "year": "2023",
+        "description": "Internes Tool für Kontakte und Pipeline-Notizen.",
+        "impact": "Einfachere Nachverfolgung und Reports.",
+        "stack": [
+          "Vue",
+          "Node.js",
+          "PostgreSQL",
+          "Vuetify",
+          "Docker"
+        ],
+        "categories": [
+          "personal"
+        ],
+        "inactive": true,
+        "inactiveLabel": "Archiviert"
+      },
+      {
+        "name": "API Playground",
+        "year": "2024",
+        "description": "API-Patterns und Auth-Flows getestet.",
+        "impact": "Besseres Verständnis von Versionierung.",
+        "stack": [
+          "Node.js"
+        ],
+        "categories": [
+          "learning"
+        ],
+        "link": "#",
+        "linkLabel": "Repo ansehen"
+      },
+      {
+        "name": "UI Animation Lab",
+        "year": "2023",
+        "description": "Kleine UI-Experimente zu Motion und Layout.",
+        "impact": "Wiederverwendbare Animationen.",
+        "stack": [
+          "CSS"
+        ],
+        "categories": [
+          "learning"
+        ],
+        "link": "#",
+        "linkLabel": "Demo ansehen"
+      },
+      {
+        "name": "Data Dashboard",
+        "year": "2022",
+        "description": "Dashboard-Prototyp mit Filtern und Charts.",
+        "impact": "Zugängliche Datenansichten.",
+        "stack": [
+          "Vue",
+          "TypeScript",
+          "Charts"
+        ],
+        "categories": [
+          "learning"
+        ],
+        "link": "#",
+        "linkLabel": "Demo ansehen"
+      }
+    ]
+  },
+  "settings": {
+    "heading": "Einstellungen",
+    "themeLabel": "Thema",
+    "languageLabel": "Sprache",
+    "accentLabel": "Akzent",
+    "accentHint": "Highlight-Farbe wählen"
+  },
+  "resume": {
+    "heading": "Lebenslauf",
+    "subtitle": "Kurzfassung der letzten Stationen.",
+    "timelineLabel": "Erfahrung",
+    "timeline": [
+      {
+        "title": "Softwareentwickler",
+        "company": "Produktstudio",
+        "location": "Remote",
+        "period": "2022-Heute",
+        "description": "Webprodukte für kleine Teams gebaut und betreut.",
+        "highlights": [
+          "Frontend-Architektur verantwortet",
+          "Mit Design und QA zusammengearbeitet",
+          "Performance und DX verbessert"
+        ]
+      },
+      {
+        "title": "Frontend Engineer",
+        "company": "Digitalagentur",
+        "location": "Hybrid",
+        "period": "2020-2022",
+        "description": "Websites und Apps für Kunden umgesetzt.",
+        "highlights": [
+          "Wiederverwendbare Komponenten",
+          "API-Integrationen",
+          "Barrierefreiheit verbessert"
+        ]
+      },
+      {
+        "title": "Developer Trainee",
+        "company": "Tech-Programm",
+        "location": "Vor Ort",
+        "period": "2018-2020",
+        "description": "Full-Stack-Grundlagen in Projekten gelernt.",
+        "highlights": [
+          "Pair Programming",
+          "Testing-Grundlagen",
+          "CI-Workflows"
+        ]
+      }
+    ],
+    "dailyLabel": "Fokus im Alltag",
+    "dailyHeadline": "So arbeite ich heute",
+    "dailyCopy": "Schlanker Prozess, klare Kommunikation, saubere Details.",
+    "dailyHighlights": [
+      "Kleine, klare Meilensteine",
+      "Code-Reviews und Tests",
+      "Performance und Barrierefreiheit",
+      "Kontinuierliches Lernen"
+    ],
+    "dailyStackLabel": "Täglicher Stack",
+    "dailyStack": [
+      "TypeScript",
+      "Vue",
+      "Vite",
+      "Vuetify",
+      "SCSS",
+      "Node.js",
+      "REST",
+      "PostgreSQL",
+      "Docker",
+      "Git",
+      "CI/CD",
+      "Testing"
+    ]
+  },
+  "contact": {
+    "heading": "Kontakt",
+    "copy": "Schreib mir kurz, ich melde mich."
+  }
+}

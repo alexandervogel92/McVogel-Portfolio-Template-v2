@@ -1,0 +1,42 @@
+.portfolio-footer {
+  padding: 2.5rem 0;
+  background: color-mix(in srgb, var(--v-theme-surface) 94%, rgba(var(--accent-color-rgb), 0.08));
+  border-top: 1px solid rgba(var(--accent-color-rgb), 0.12);
+}
+
+.portfolio-footer__container {
+  display: flex;
+  justify-content: center;
+}
+
+.portfolio-footer__copy {
+  margin: 0;
+  font-size: 0.9rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: color-mix(in srgb, var(--v-theme-on-surface) 72%, rgba(var(--accent-color-rgb), 0.2));
+}
+
+.portfolio-footer__link {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+.portfolio-footer__link:hover,
+.portfolio-footer__link:focus-visible {
+  color: var(--accent-color);
+  border-color: currentColor;
+}
+
+.v-theme--portfolioDark {
+  .portfolio-footer {
+    background: color-mix(in srgb, rgba(6, 11, 24, 0.92) 88%, rgba(var(--accent-color-rgb), 0.1));
+    border-top-color: rgba(255, 255, 255, 0.08);
+  }
+
+  .portfolio-footer__copy {
+    color: color-mix(in srgb, #f5f7ff 82%, rgba(var(--accent-color-rgb), 0.25));
+  }
+}

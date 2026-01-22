@@ -1,0 +1,19 @@
+.contact-page {
+  min-height: 100%;
+  background: linear-gradient(
+    180deg,
+    rgba(var(--accent-color-rgb), 0.04) 0%,
+    transparent 22%
+  );
+}
+
+:deep(.v-container) {
+  max-width: min(1320px, 94vw);
+  padding-inline: clamp(var(--space-5), 3vw, var(--space-7));
+}
+
+@media (min-width: 1600px) {
+  :deep(.v-container) {
+    max-width: 1440px;
+  }
+}

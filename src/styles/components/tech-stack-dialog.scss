@@ -1,0 +1,157 @@
+.accent-icon {
+  color: var(--accent-color);
+}
+
+.stack-dialog {
+  position: relative;
+  overflow: hidden;
+  border-radius: 28px;
+  background-color: rgba(6, 12, 24, 0.94) !important;
+  color: #f5f7fb !important;
+  box-shadow: 0 40px 120px -60px rgba(10, 12, 26, 0.2);
+}
+
+.stack-dialog::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(circle at 18% 14%, rgba(var(--accent-color-rgb), 0.35), transparent 62%),
+    radial-gradient(circle at 84% 86%, rgba(56, 189, 248, 0.24), transparent 58%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.stack-dialog::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(155deg, rgba(8, 14, 28, 0.88), rgba(4, 8, 18, 0.72));
+  pointer-events: none;
+  z-index: 0;
+}
+
+.stack-dialog > * {
+  position: relative;
+  z-index: 1;
+}
+
+.stack-dialog-title {
+  font-size: clamp(1.4rem, 1.2vw + 1rem, 1.9rem);
+  font-weight: 700;
+}
+
+.stack-dialog-subtitle {
+  opacity: 0.7;
+  max-width: 42ch;
+}
+
+.stack-section-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.stack-chips {
+  gap: 0.6rem;
+}
+
+.stack-chip {
+  background: rgba(var(--accent-color-rgb), 0.28) !important;
+  color: #f5f7fb !important;
+  font-weight: 600;
+  border-radius: 999px;
+}
+
+.stack-section {
+  position: relative;
+  overflow: hidden;
+  padding: 1.25rem 1.5rem;
+  border-radius: 22px;
+  background: rgba(17, 26, 45, 0.78);
+  border: 1px solid rgba(var(--accent-color-rgb), 0.25);
+}
+
+@media (max-width: 600px) {
+  .stack-dialog {
+    border-radius: 20px;
+  }
+}
+
+.stack-dialog-overlay.is-dark .stack-dialog {
+  background-color: rgba(6, 12, 24, 0.96) !important;
+  box-shadow: 0 30px 110px -65px rgba(10, 12, 26, 0.45);
+}
+
+.stack-dialog-overlay.is-dark .stack-dialog::before {
+  background:
+    radial-gradient(circle at 20% 18%, rgba(var(--accent-color-rgb), 0.45), transparent 60%),
+    radial-gradient(circle at 80% 82%, rgba(56, 189, 248, 0.32), transparent 52%);
+}
+
+.stack-dialog-overlay.is-dark .stack-dialog::after {
+  background: linear-gradient(150deg, rgba(4, 8, 18, 0.9), rgba(2, 6, 16, 0.78));
+}
+
+.stack-dialog-overlay.is-dark .stack-chip {
+  background: linear-gradient(135deg, rgba(var(--accent-color-rgb), 0.32), rgba(56, 189, 248, 0.24)) !important;
+  color: #ffffff !important;
+}
+
+.stack-dialog-overlay.is-dark .stack-section {
+  background: rgba(20, 30, 50, 0.85);
+  border-color: rgba(var(--accent-color-rgb), 0.32);
+  box-shadow: 0 18px 40px -32px rgba(10, 15, 25, 0.6);
+}
+
+.stack-dialog-overlay.is-light .stack-dialog {
+  background-color: rgba(255, 255, 255, 0.96) !important;
+  color: #111a2d !important;
+}
+
+.stack-dialog-overlay.is-light .stack-dialog::before {
+  background:
+    radial-gradient(circle at 20% 18%, rgba(var(--accent-color-rgb), 0.18), transparent 68%),
+    radial-gradient(circle at 82% 84%, rgba(56, 189, 248, 0.12), transparent 62%);
+}
+
+.stack-dialog-overlay.is-light .stack-dialog::after {
+  background: linear-gradient(155deg, rgba(255, 255, 255, 0.92), rgba(245, 248, 255, 0.86));
+}
+
+.stack-dialog-overlay.is-light .stack-chip {
+  background: color-mix(in srgb, var(--accent-color) 18%, transparent) !important;
+  color: var(--accent-color) !important;
+}
+
+.stack-dialog-overlay.is-light .stack-section {
+  background: linear-gradient(135deg, rgba(243, 241, 241, 0.76), rgba(228, 232, 243, 0.92));
+  border-color: rgba(var(--accent-color-rgb), 0.18);
+  box-shadow: 0 28px 40px -32px rgba(15, 23, 42, 0.22);
+}
+
+.stack-dialog-overlay :deep(.v-overlay__scrim) {
+  backdrop-filter: blur(36px) !important;
+  -webkit-backdrop-filter: blur(36px) !important;
+  background-color: rgba(12, 18, 32, 0.5);
+}
+
+.stack-dialog-overlay.is-light :deep(.v-overlay__scrim) {
+  background-color: rgba(244, 248, 255, 0.6);
+}
+
+.stack-dialog-overlay.is-dark :deep(.v-overlay__scrim) {
+  background-color: rgba(6, 12, 24, 0.68);
+}
+
+:global(body.modal-blur-active) {
+  overflow: hidden;
+}
+
+:global(body.modal-blur-active #app) {
+  filter: blur(8px);
+  transition: filter 0.3s ease;
+}
+
+:global(body.modal-blur-active .v-overlay-container) {
+  filter: none !important;
+}

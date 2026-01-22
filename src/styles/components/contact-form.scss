@@ -1,0 +1,38 @@
+.contact-form {
+  width: 100%;
+}
+
+.text-caption {
+  font-size: 0.75rem;
+}
+
+.v-alert {
+  margin-bottom: 1rem;
+}
+
+.v-container {
+  padding: 1rem;
+}
+
+.v-btn {
+  padding-inline: 1.5rem;
+}
+
+.contact-form__submit {
+  background-color: var(--accent-color, var(--color-accent-base, #715aff));
+  color: #fff !important;
+  box-shadow: 0 16px 38px -18px rgba(var(--accent-color-rgb, var(--color-accent-rgb, 113, 90, 255)), 0.8);
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.contact-form__submit:hover,
+.contact-form__submit:focus-visible {
+  box-shadow: 0 18px 48px -18px rgba(var(--accent-color-rgb, var(--color-accent-rgb, 113, 90, 255)), 0.9);
+  transform: translateY(-1px);
+}
+
+.contact-form__submit.v-btn--disabled {
+  background-color: rgba(var(--accent-color-rgb, var(--color-accent-rgb, 113, 90, 255)), 0.32);
+  box-shadow: none;
+  color: rgba(255, 255, 255, 0.72) !important;
+}
